@@ -106,3 +106,13 @@ html {
     border: 0.1rem solid #ddd;
     border-radius: 50%;
 }
+
+.stem {
+    position: absolute;
+    width: 2rem;
+    height: 30rem;
+    background-image: linear-gradient(to right, rgb(148,235,92), green, rgb(148,235,92));
+    transform-origin: top;
+    transform: translateY(50%) rotateZ(7deg);
+    z-index: -1;
+}
