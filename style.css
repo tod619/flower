@@ -16,6 +16,7 @@ html {
     justify-content: center;
     align-items: center;
     perspective: 100rem;
+    overflow: hidden;
 }
 
 .petals {
@@ -110,7 +111,7 @@ html {
 .stem {
     position: absolute;
     width: 2rem;
-    height: 30rem;
+    height: 60rem;
     background-image: linear-gradient(to right, rgb(148,235,92), green, rgb(148,235,92));
     transform-origin: top;
     transform: translateY(50%) rotateZ(7deg);
